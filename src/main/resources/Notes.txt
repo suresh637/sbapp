@@ -1,0 +1,75 @@
+http://localhost:8080/v2/api-docs
+
+
+h2 console:
+-------------
+http://localhost:8080/h2console
+
+
+GET:
+------------
+
+http://localhost:8080/api/employees
+
+
+post:
+-------------
+	
+	Url: localhost:8080/api/employees
+	
+	
+    {
+        "createdAt": "0022-01-04 12:13:04",
+        "updatedAt": "0022-01-04 12:13:04",
+        "firstName": "sss",
+        "lastName": "ssss",
+        "salary": 444445.0,
+        "addresses": [
+            {
+                "createdAt": "0022-01-04 12:13:04",
+                "updatedAt": "0022-01-04 12:13:04",
+                "street": "n r nagar",
+                "city": "kurnool"
+            }
+        ]
+    }
+    
+    ------------------------------
+    
+    [
+    {
+        "createdAt": "0022-01-04 12:13:04",
+        "updatedAt": "0022-01-04 12:13:04",
+        "firstName": "sss",
+        "lastName": "ssss",
+        "salary": 444445.0,
+        "addresses": [
+            {
+                "createdAt": "0022-01-04 12:13:04",
+                "updatedAt": "0022-01-04 12:13:04",
+                "street": "n r nagar",
+                "city": "kurnool"
+            }
+        ]
+    },
+    {
+        "createdAt": "0022-01-04 12:13:04",
+        "updatedAt": "0022-01-04 12:13:04",
+        "firstName": "ssaaas",
+        "lastName": "vvvvv",
+        "salary": 66433.0,
+        "addresses": [
+            {
+                "createdAt": "0022-01-04 12:13:04",
+                "updatedAt": "0022-01-04 12:13:04",
+                "street": "kukatpally",
+                "city": "hyderabad"
+            }
+        ]
+    }
+]
+    
+    
+ DELETE:
+ ------------
+ http://localhost:8080/api/employees/1
